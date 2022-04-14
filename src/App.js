@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import { D4Todo } from './Day4/PreClass/D4Todo';
+import { D4todo } from './Day4/AliveClass/D4todo';
+
 
 
 
@@ -8,14 +9,12 @@ function App() {
 
   return (
     <div className='App'>
-      <D4Todo/>
+      <D4todo/>
     </div>
   )
 };
 
 export default App;
-
-
 
 
 
