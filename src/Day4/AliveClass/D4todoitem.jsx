@@ -1,3 +1,3 @@
-export const D4todoitem=({todo})=>{
+export const D4todoitem = ({ todo }) => {
     return <div>{todo}</div>
 }
