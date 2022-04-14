@@ -1,6 +1,6 @@
 import React from "react"
 
-export const D4todoinput = () => {
+export const D4todoinput = ({ addTodo }) => {
     const [text, setText] = React.useState("");
     return (
         <div>
@@ -10,7 +10,9 @@ export const D4todoinput = () => {
             }}
             />
             <button
-                onClick={() => { }}>Add Todo</button>
+                onClick={() => {
+                    addTodo(text)
+                }}>Add Todo</button>
         </div>
     )
 }
