@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { D4todo } from './Day4/AliveClass/D4todo';
+import D5Counter from './Day5Useeffect/PreClass/D5Counter';
 
 
 
@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div className='App'>
-      <D4todo />
+      <D5Counter/>
     </div>
   )
 };
