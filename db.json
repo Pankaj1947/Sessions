@@ -1,3 +1,49 @@
 {
-    "groceries":[]
+  "groceries": [
+    {
+      "title": "Potatoes",
+      "purchased": false,
+      "id": 1
+    },
+    {
+      "title": "Onions",
+      "purchased": false,
+      "id": 2
+    },
+    {
+      "title": "Kurkure",
+      "purchased": false,
+      "id": 3
+    },
+    {
+      "title": "Toss",
+      "purchased": false,
+      "id": 4
+    },
+    {
+      "title": "Popcorn",
+      "purchased": false,
+      "id": 5
+    },
+    {
+      "title": "Spices",
+      "purchased": false,
+      "id": 6
+    },
+    {
+      "title": "Maggie",
+      "purchased": false,
+      "id": 7
+    },
+    {
+      "title": "Oil",
+      "purchased": false,
+      "id": 8
+    },
+    {
+      "title": "Rice",
+      "purchased": false,
+      "id": 9
+    }
+  ]
 }
