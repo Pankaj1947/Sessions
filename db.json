@@ -1,49 +1,38 @@
 {
-  "groceries": [
+  "users": [
     {
-      "title": "Potatoes",
-      "purchased": false,
+      "username": "",
+      "age": "29",
+      "email": "pankaj@gmail.com",
+      "name": "Pankaj Kumar Ram",
       "id": 1
     },
     {
-      "title": "Onions",
-      "purchased": false,
+      "username": "",
+      "age": "",
+      "email": "",
       "id": 2
     },
     {
-      "title": "Kurkure",
-      "purchased": false,
+      "username": "",
+      "age": "",
+      "email": "",
+      "name": "d",
       "id": 3
     },
     {
-      "title": "Toss",
-      "purchased": false,
+      "username": "",
+      "age": "4543",
+      "email": "fdfgd@dffg",
+      "name": "thrth",
       "id": 4
     },
     {
-      "title": "Popcorn",
-      "purchased": false,
+      "username": "",
+      "age": "29",
+      "email": "pankajkr885@gmail.com",
+      "name": "Pankaj",
       "id": 5
-    },
-    {
-      "title": "Spices",
-      "purchased": false,
-      "id": 6
-    },
-    {
-      "title": "Maggie",
-      "purchased": false,
-      "id": 7
-    },
-    {
-      "title": "Oil",
-      "purchased": false,
-      "id": 8
-    },
-    {
-      "title": "Rice",
-      "purchased": false,
-      "id": 9
     }
   ]
 }
