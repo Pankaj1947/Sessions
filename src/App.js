@@ -1,13 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
-import { D6Form } from './Day6/AliveClass/D6Form';
+import { D8Card } from './Day8ContextApi/PreClass/D8Card';
+import { D8Navbar } from './Day8ContextApi/PreClass/D8Navbar';
+
+
 
 
 
 function App() {
   return (
     <div className='App'>
-      <D6Form/>
+      <D8Navbar />
+      <D8Card />
     </div>
   )
 };
