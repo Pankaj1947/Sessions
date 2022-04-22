@@ -1,7 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import { D8Card } from './Day8ContextApi/PreClass/D8Card';
-import { D8Navbar } from './Day8ContextApi/PreClass/D8Navbar';
+import { D9About } from './Day9Router/PreClass/D9About';
+import { D9Home } from './Day9Router/PreClass/D9Home';
+import { D9NavBar } from './Day9Router/PreClass/D9NavBar';
+import { D9Products } from './Day9Router/PreClass/D9Products';
 
 
 
@@ -10,8 +13,12 @@ import { D8Navbar } from './Day8ContextApi/PreClass/D8Navbar';
 function App() {
   return (
     <div className='App'>
-      <D8Navbar />
-      <D8Card />
+      <D9NavBar/>
+      <Routes>
+        <Route path={"/"} element={<D9Home/>}></Route>
+        <Route path={"/about"} element={<D9About />}></Route>
+        <Route path={"/products/:id"} element={<D9Products />}></Route>
+      </Routes>
     </div>
   )
 };
