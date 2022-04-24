@@ -1,10 +1,13 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import { D9About } from './Day9Router/PreClass/D9About';
-import { D9Home } from './Day9Router/PreClass/D9Home';
-import { D9NavBar } from './Day9Router/PreClass/D9NavBar';
-import { D9Products } from './Day9Router/PreClass/D9Products';
+import { D9about } from './Day9Router/AliveClass/D9about';
+import { D9home } from './Day9Router/AliveClass/D9home';
+import { D9Login } from './Day9Router/AliveClass/D9Login';
+import { D9navbar } from './Day9Router/AliveClass/D9navbar';
+import { D9Users } from './Day9Router/AliveClass/D9Users';
+import { UserDetails } from './Day9Router/AliveClass/UserDetails';
+
 
 
 
@@ -13,11 +16,13 @@ import { D9Products } from './Day9Router/PreClass/D9Products';
 function App() {
   return (
     <div className='App'>
-      <D9NavBar />
+      <D9navbar />
       <Routes>
-        <Route path={"/"} element={<D9Home />}></Route>
-        <Route path={"/about"} element={<D9About />}></Route>
-        <Route path={"/products/:id"} element={<D9Products />}></Route>
+        <Route path='/' element={<D9home />} />
+        <Route path='/about' element={<D9about />} />
+        <Route path='/users' element={<D9Users />} />
+        <Route path='/users/:id' element={<UserDetails />} />
+        <Route path='/login' element={<D9Login />} />
       </Routes>
     </div>
   )

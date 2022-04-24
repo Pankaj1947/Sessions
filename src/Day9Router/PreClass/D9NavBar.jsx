@@ -6,6 +6,7 @@ export const D9NavBar = () => {
         <div>
             <Link to='/'>Home</Link>
             <Link to='/about'>About</Link>
+            <Link to='/users'>About</Link>
         </div>
     )
 }
