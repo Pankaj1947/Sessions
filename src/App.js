@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { EmployeeForms } from './Day6/Assignment/EmployeeDetails/EmployeeForms';
+import Main from './Day6/Assignment/GoogleTimer/Main';
 
 
 
@@ -10,7 +10,7 @@ import { EmployeeForms } from './Day6/Assignment/EmployeeDetails/EmployeeForms';
 function App() {
   return (
     <div className='App'>
-      <EmployeeForms/>
+      <Main/>
     </div>
   )
 };

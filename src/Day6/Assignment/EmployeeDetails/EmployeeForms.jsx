@@ -94,14 +94,14 @@ export const EmployeeForms = () => {
             <h1>Employee Details</h1>
             <div className={style.container}>
                 {empData.map(e => <div key={e.id}>
-                    <h4 style={{color:"brown"}}>{`Employee No: ${e.id}`}</h4>
+                    <h4 style={{ color: "brown" }}>{`Employee No: ${e.id}`}</h4>
                     <h2 style={{ color: "teal" }}>{`Name: ${e.name}`}</h2>
                     <h3>{`Age: ${e.age}`}</h3>
                     <p>{e.isMarried ? "Married" : "Single"}</p>
                     <p>{`Address: ${e.address}`}</p>
                     <p>{`Salary: ${e.salary}`}</p>
                     <p>{`Department: ${e.department}`}</p>
-                    
+
                 </div>)}
             </div>
         </div>
