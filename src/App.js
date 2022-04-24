@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Timer } from './Day5Useeffect/Assignments/IncrementTimer/Timer';
-import { Day5Todo } from './Day5Useeffect/Assignments/Todo/Todo';
+import { EmployeeForms } from './Day6/Assignment/EmployeeDetails/EmployeeForms';
 
 
 
@@ -11,7 +10,7 @@ import { Day5Todo } from './Day5Useeffect/Assignments/Todo/Todo';
 function App() {
   return (
     <div className='App'>
-      <Timer/>
+      <EmployeeForms/>
     </div>
   )
 };
