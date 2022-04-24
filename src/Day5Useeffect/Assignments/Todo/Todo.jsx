@@ -35,7 +35,7 @@ export const Day5Todo = () => {
         <div>
             <div>
                 <input type="text" value={title} onChange={(e) => setTitle(e.target.value)} placeholder="Add Todo" />
-                <button onClick={() => addTodos()}>ADD</button>
+                <button onClick={() => addTodos()}>save</button>
             </div>
             <div>
                 {todo.map(e => <div key={e.id}>{e.title}</div>)}
