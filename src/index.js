@@ -11,11 +11,11 @@ const root = createRoot(container);
 
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <AuthContextProvider>
+    {/* <BrowserRouter>
+      <AuthContextProvider> */}
         <App />
-      </AuthContextProvider>
-    </BrowserRouter>
+      {/* </AuthContextProvider>
+    </BrowserRouter> */}
   </React.StrictMode>,
 );
 
