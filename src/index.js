@@ -6,16 +6,17 @@ import reportWebVitals from './reportWebVitals';
 import { createRoot } from "react-dom/client";
 import { BrowserRouter } from 'react-router-dom';
 import { AuthContextProvider } from './Day9Router/AliveClass/context/AuthContext';
+import { store } from './Day11/AliveClass/Redux/store';
+import { AppContextProvider } from './Day10Redux/PreClass/Redux/AppContext';
+import { Provider as ReduxProvider } from 'react-redux';
 const container = document.getElementById("root");
 const root = createRoot(container);
 
 root.render(
   <React.StrictMode>
-    {/* <BrowserRouter>
-      <AuthContextProvider> */}
-        <App />
-      {/* </AuthContextProvider>
-    </BrowserRouter> */}
+    <ReduxProvider store={store}>
+      <App/>
+    </ReduxProvider>
   </React.StrictMode>,
 );
 
@@ -23,3 +24,15 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+
+{/* <React.StrictMode>
+  {/* <BrowserRouter>
+      <AuthContextProvider> */}
+  <AppContextProvider store={store}>
+    <App />
+  </AppContextProvider>
+
+  {/* </AuthContextProvider>
+    </BrowserRouter> */}
+// </React.StrictMode>, */}
