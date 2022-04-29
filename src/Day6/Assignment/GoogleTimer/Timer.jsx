@@ -5,8 +5,8 @@ import TimerInput from "./TimerInput";
 const Timer = () => {
     const [min, setMin] = useState(5);
     const [sec, setSec] = useState(0);
-    const [timer, setTimer] = useState(false);
     const [input, setInput] = useState(false);
+    const [timer, setTimer] = useState(false);
 
     useEffect(() => {
         let id = null;
@@ -52,7 +52,7 @@ const Timer = () => {
             )}
             <div className={styles.btn}>
                 {timer ? (
-                    <button onClick={() => setTimer(false)}>Stop</button>
+                    <button onClick={() => setTimer(false)}>Pause</button>
                 ) : (
                     <button
                         onClick={() => {
