@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Button } from './Day7/Assignment/Btn';
+import { Button } from './Day7/Assignment/ButtonStyled/Btn';
 
 
 
