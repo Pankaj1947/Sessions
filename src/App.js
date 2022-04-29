@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import Main from './Day6/Assignment/GoogleTimer/Main';
+import { Button } from './Day7/Assignment/Btn';
+
 
 
 
@@ -8,7 +9,7 @@ import Main from './Day6/Assignment/GoogleTimer/Main';
 function App() {
   return (
     <div className='App'>
-      <Main/>
+      <Button/>
     </div>
   )
 };
