@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import { Button } from './Day7/Assignment/ButtonStyled/Btn';
+import CardForm from './Day7/Assignment/CreditCardForm/CardForm';
 
 
 
@@ -9,7 +10,8 @@ import { Button } from './Day7/Assignment/ButtonStyled/Btn';
 function App() {
   return (
     <div className='App'>
-      <Button/>
+      {/* <Button/> */}
+      <CardForm />
     </div>
   )
 };
