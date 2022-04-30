@@ -1,13 +1,16 @@
 import React from 'react';
 import './App.css';
-import Container from './Day6/Assignment/GoogleTimer/Container';
+import { D12Counter } from './Day12/AliveClass/D12Counter';
+import { D12Todo } from './Day12/AliveClass/D12Todo';
 
 
 
 function App() {
   return (
     <div className='App'>
-      <Container />
+      <D12Counter/>
+      <hr/>
+      <D12Todo/>
     </div>
   )
 };
