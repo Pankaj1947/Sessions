@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import { Carddiv, Creditcardwrap, Creditfrom } from './CardStyled';
+import { Carddiv, Creditfrom } from './CardStyled';
 import CreditCard from './CreditCard';
 
-function CardForm() {
+export const CardForm = () => {
     const [formData, setFormData] = useState([]
         // showPassword: false,
     );
@@ -31,15 +31,20 @@ function CardForm() {
                     Payment Details
                     <form onSubmit={haddleSubmit}>
                         <label>CARDHOLDER NAME</label><br />
-                        <input type="text" name="name" onChange={handleChange} placeholder="Name" /><br />
+                        <input type="text" name="name" onChange={handleChange} placeholder="Name" />
+                        <br />
                         <label>CARDHOLDER NUMBER</label><br />
-                        <input type="text" name="number" onChange={handleChange} placeholder="Card Number" /><br />
+                        <input type="text" name="number" onChange={handleChange} placeholder="Card Number" />
+                        <br />
                         <label>EXPIRY MONTH</label><br />
-                        <input type="number" name="month" onChange={handleChange} placeholder="09" />  <br />
+                        <input type="number" name="month" onChange={handleChange} placeholder="09" />
+                        <br />
                         <label>EXPIRY YEAR</label><br />
-                        <input type="number" name="year" onChange={handleChange} placeholder="2020" /><br />
+                        <input type="number" name="year" onChange={handleChange} placeholder="2020" />
+                        <br />
                         <label>cvv</label><br />
-                        <input type="number" name="cvv" onChange={handleChange} placeholder="345" /><br />
+                        <input type="number" name="cvv" onChange={handleChange} placeholder="345" />
+                        <br />
                         <p>Payment amount </p>
                         <button type="submit" value="PAY">PAY</button>
                     </form>

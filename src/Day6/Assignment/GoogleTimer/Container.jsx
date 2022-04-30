@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import Stopwatch from "./Stopwatch";
 import Timer from "./Timer";
-import styles from "./Main.module.css";
+import styles from "./Cont.module.css";
 
-const Main = () => {
+const Container = () => {
     const [show, setShow] = useState(true);
     return (
         <>
@@ -28,4 +28,4 @@ const Main = () => {
     );
 };
 
-export default Main;
+export default Container;

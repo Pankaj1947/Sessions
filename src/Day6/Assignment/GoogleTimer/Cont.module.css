@@ -10,13 +10,11 @@
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
-
 .nav {
     width: 100%;
     display: flex;
     justify-content: space-around;
 }
-
 .nav>button {
     background-color: transparent;
     border: none;
@@ -26,7 +24,6 @@
     width: 50%;
     padding: 10px 0px;
 }
-
 .active {
     color: #1A73E8;
     border-bottom: 2px solid #1A73E8 !important;
@@ -34,7 +31,6 @@
 .active:hover{
     font-weight: 600;
 }
-
 .main {
     width: 100%;
     display: flex;
