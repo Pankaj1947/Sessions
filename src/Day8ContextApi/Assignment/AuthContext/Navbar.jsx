@@ -20,7 +20,6 @@ const Btn = styled.div`
 
 function Navbar() {
     const { isAuth, toggleAuth } = useContext(AuthContext)
-    console.log({ isAuth, toggleAuth })
 
     return (
         <>
