@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      }
+      .box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <h1 id="counter"></h1>
+      <div>
+        <button id="increment">Inc</button> <button id="decrement">Dec</button>
+      </div>
+
+      <div class="box">
+        <h2>Calculator:-Enter the number you want to add ,sub,multiply and divide.</h2>
+      </div>
+        <input type="number" id="input" placeholder="Enter the value" />
+      <br />
+      <div>
+        <button id="add">ADD</button>
+        <button id="sub">SUB</button>
+        <button id="mul">MUL</button>
+        <button id="div">DIV</button>
+        <button id="clr">CLEAR</button>
+      </div>
+    </div>
+  </body>
+  <script type="module" src="./index.js"></script>
+</html>
