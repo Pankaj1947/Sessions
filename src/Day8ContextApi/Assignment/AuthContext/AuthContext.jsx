@@ -24,7 +24,6 @@ export const AuthContextProvider=({ children }) =>{
         })
             .then((data) => data.json())
             .then((data) => {
-                console.log(data)
                 setToken(data.token)
                 setIsAuth(true)
             })
