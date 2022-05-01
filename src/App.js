@@ -1,16 +1,18 @@
 import React from 'react';
 import './App.css';
-import { D12Counter } from './Day12/AliveClass/D12Counter';
-import { D12Todo } from './Day12/AliveClass/D12Todo';
+import { AuthContextProvider } from './Day8ContextApi/Assignment/AuthContext/AuthContext';
+import Displayuser from './Day8ContextApi/Assignment/AuthContext/DisplayUser';
+import Navbar from './Day8ContextApi/Assignment/AuthContext/Navbar';
 
 
 
 function App() {
   return (
     <div className='App'>
-      <D12Counter/>
-      <hr/>
-      <D12Todo/>
+      <AuthContextProvider>
+        <Navbar />
+        <Displayuser />
+      </AuthContextProvider>
     </div>
   )
 };
