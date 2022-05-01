@@ -1,19 +1,14 @@
-import React from 'react';
-import './App.css';
-import { AuthContextProvider } from './Day8ContextApi/Assignment/AuthContext/AuthContext';
-import Displayuser from './Day8ContextApi/Assignment/AuthContext/DisplayUser';
-import Navbar from './Day8ContextApi/Assignment/AuthContext/Navbar';
-
-
+import React from 'react'
+import Main from './Day8ContextApi/Assignment/ThemeToggler/Main'
 
 function App() {
+
   return (
-    <div className='App'>
-      <AuthContextProvider>
-        <Navbar />
-        <Displayuser />
-      </AuthContextProvider>
+
+    <div>
+      <Main/>
     </div>
   )
-};
+}
+
 export default App;
