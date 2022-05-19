@@ -18,10 +18,7 @@ function D4Sbilings(){
     return (
         <div>
             <h1>Siblings</h1>
-            <Child value={count}
-            handleDec={()=>handleChange(-1)}
-            handleInc={()=>handleChange(1)}
-            />
+            <Child value={count}/>
             <Button label="-" handleClick={()=>handleChange(-1)}/>
             <Button label="+" handleClick={()=>handleChange(1)}/>
         </div>
