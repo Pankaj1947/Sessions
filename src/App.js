@@ -1,7 +1,5 @@
 import React from 'react'
-import { PaymentCard } from './Project/PaymentCard';
-import { Address } from './Project/Address';
-import {D4Sbilings} from "./Day4/PreClass/Siblings"
+import Container from './Day6/Assignment/GoogleTimer/Container';
 
 function App() {
 
@@ -9,7 +7,7 @@ function App() {
 
     <div>
      
-      <D4Sbilings/>
+      <Container/>
     </div>
   )
 }
